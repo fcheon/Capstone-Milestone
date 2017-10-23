@@ -1,0 +1,26 @@
+---
+title: "Capstone Data Story"
+author: "Frank Cheon"
+date: "October 23, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Capstone Milestone
+
+We have found that there are multiple points of interest based on the plots that I have put together:
+1. Majority of the Loan Applications were approved (Approval rate of ~75%)
+2. Majority of the loan applicants were not latino, White. 
+3. We all know that credit history is very important in approvals for loans, but only hits 2nd most denied reason. First being Debt-to-income ratio.
+4. We are also seeing a vast difference in the property type that the loan applications were intended for. 
+
+
+## A deeper dive into the data set:
+This dataset was a great set to start out with, as it has many points of interest to compare and contrast. Ethnicity, Property type, loan type, the family situation, financial situation, etc.. 
+
+But some of the limitation I can think of were the fact we cannot determine is the crime rate within area that the house was being purchased in, also of any history of delinquency of the loan applicant.
+
+The data was fairly clean to start using right away, but few slight changes needed to be made. Removal of any data (by rows) that does not add any value to the top summary, but only confusion.(such as "loans denied because of incompleteness")
+
+by using the logistic regression model and the decision tree model, I hope to achieve a high percentage accuracy of predicting the most valuable qualifications for loan approval process.
